@@ -1,0 +1,124 @@
+Html {
+	BackGround: #ffffff; Height: 100%
+}
+Body {
+    SCROLLBAR-FACE-COLOR: #ececec; 
+    SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+    SCROLLBAR-SHADOW-COLOR: #775656; 
+    SCROLLBAR-3DLIGHT-COLOR: #cccccc; 
+    SCROLLBAR-ARROW-COLOR: #775656; 
+    SCROLLBAR-TRACK-COLOR: #cccccc; 
+    SCROLLBAR-DARKSHADOW-COLOR: #cccccc
+	Border-Top-Width: 0px; 
+	Padding-Right: 0px; 
+	Padding-Left: 0px; 
+	Border-Left-Width: 0px;
+	Border-Bottom-Width: 0px; 
+	Padding-Bottom: 0px; 
+	Margin: 0px;  
+	Color: buttontext;
+	Padding-TOP: 0px; 
+	Border-Right-Width: 0px;
+	Line-Height: 18px;
+	Font-Family: "Arial", "ËÎÌו"
+}
+Table{  
+	Word-Break:break-all;
+	Border-Collapse: collapse;
+}
+Td {  
+	Font-Size: 12px;
+}
+A {  
+	Color: #0066CC; 
+	Text-Decoration: none;
+}
+
+A:Hover {  
+	Color: #0000FF; 
+	Text-Decoration: none;
+}
+.Hidden
+{
+    Display: none;
+}
+.CalText {
+	Font-Size: 12px;
+	Background-Color:highlight;
+	Color:highlighttext;
+	Width:18px;
+}
+.TextTitle { 
+ 	Font-Size: 16px;
+ }
+
+.TextSmall 
+{ 
+ 	Font-Size: 10px;
+	Color: #999999;
+ }
+.CoolButton {
+	Behavior: url('Inc/CoolButton.htc'); 
+	Cursor: default; 
+	Font-Size: 11px;	
+}
+
+.TableMenu {
+	Border-Right: 2px groove; 
+	Border-Top: 2px groove; 
+	Border-Left: 2px groove; 
+	Border-Bottom: 2px groove;
+}
+.HollowField {
+	Border-Left: 1px solid buttonshadow;
+	Border-Right: 1px solid buttonhighlight;
+	Border-Top: 1px solid buttonshadow;
+	Border-Bottom: 1px solid buttonhighlight;
+	Padding-Top: 0px;
+	Padding-Left: 0px;
+	Padding-Bottom: 0px;
+	Padding-Right: 0px;
+}
+
+.Button {  
+	Height: 20px; 
+	Border-Bottom: buttonshadow 1px solid; 
+	Border-Left: buttonhighlight 1px solid; 
+	Border-Right: buttonshadow 1px solid; 
+	Border-Top: buttonhighlight 1px solid; 
+	Color: #333333;
+	Padding-Bottom: 1px; 
+	Padding-Left: 2px; 
+	Padding-Right: 2px; 
+	Padding-Top: 2px
+}
+.TableLine {  
+	Border-Color: black black #F2F2F2; 
+	Border-Top-Width: 0px; 
+	Border-Right-Width: 0px; 
+	Border-Bottom-Width: 1px; 
+	Border-Left-Width: 0px
+}
+.TableNoneLine {  
+	Border: black; 
+	Border-Top-Width: 0px; 
+	Border-Right-Width: 0px; 
+	Border-Bottom-Width: 0px; 
+	Border-Left-Width: 0px
+}
+@Media Print {
+ 	.Ptn{ Display:none; }
+}
+.a1{background-color : #775656; color : #fff;}
+.a2{background-color : #cccccc;}
+.a3{background-color : #ececec; line-height : normal;}
+.a4{background-color : #E3E8F9; line-height : normal;}
+A:visited{TEXT-DECORATION:none;color : 000000}
+A:link{text-decoration:none;color : 000000}
+A:hover{TEXT-DECORATION:none;color : 04266D}
+A.page:visited{TEXT-DECORATION:none;color : ffffff}
+A.page:link{text-decoration:none;color : ffffff}
+A.page:hover{TEXT-DECORATION:underline;color : 04266D}
+A.title:visited{TEXT-DECORATION:none;color : ffffff}
+A.title:link{text-decoration:none;color : ffffff}
+A.title:hover{TEXT-DECORATION:none;color : ffffff}

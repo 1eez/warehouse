@@ -1,0 +1,130 @@
+<HTML><HEAD><TITLE>全球网址之家--生肖查询</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<SCRIPT language=JavaScript>
+<!--
+
+
+function getpet () {
+
+
+var toyear = 1997;
+
+var birthyear = document.frm.inyear.value;
+
+var birthpet="Ox"
+
+
+x = (toyear - birthyear) % 12
+
+if ((x == 1) || (x == -11)) {
+
+birthpet="鼠" }
+
+else {
+
+if (x == 0) {
+
+birthpet="牛" }
+
+else {
+
+if ((x == 11) || (x == -1)) {
+
+birthpet="虎" }
+
+else {
+
+if ((x == 10) || (x == -2)) {
+
+birthpet="兔" }
+
+else {
+
+if ((x == 9) || (x == -3)) {
+
+birthpet="龙" }
+
+else {
+
+if ((x == 8) || (x == -4)) {
+
+birthpet="蛇" }
+
+else {
+
+if ((x == 7) || (x == -5)) {
+
+birthpet="马" }
+
+else {
+
+if ((x == 6) || (x == -6)) {
+
+birthpet="羊" }
+
+else {
+
+if ((x == 5) || (x == -7)) {
+
+birthpet="猴" }
+
+else {
+
+if ((x == 4) || (x == -8)) {
+
+birthpet="鸡" }
+
+else {
+
+if ((x == 3) || (x == -9)) {
+
+birthpet="狗" }
+
+else {
+
+if ((x == 2) || (x == -10)) {
+
+birthpet="猪" }
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+}
+
+document.frm.birth.value = birthpet;
+
+
+}
+
+// -->
+
+</SCRIPT>
+
+<META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
+<BODY>
+<P align=center><BR><FONT 
+color=#ff0000>当然没有人回忘记自己属什么。。<BR>但是你可以很轻松得知道任何年份出世得人的属相。。填入查询出生在哪一年，例如:"1990" 
+</FONT></P>
+<FORM name=frm>
+<DIV align=center>
+<CENTER>
+<P>生于：<INPUT size=4 value=1990 name=inyear> 年<INPUT onclick=getpet() type=button value=查看生肖> <BR><BR>属：<INPUT size=9 
+name=birth> </P></CENTER></DIV></FORM>
+</BODY></HTML>

@@ -1,0 +1,83 @@
+<LINK href="style.css" type=text/css rel=stylesheet>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>超级万年日历</TITLE>
+	<table width="100%" align=center border="0" cellspacing="0" cellpadding="0" class="tableBorder">
+	  <tr> 
+		<td>
+		<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		  <tr bgcolor=ffffff> 
+			<th height=25 ><strong>万年日历</strong></th>
+		  </tr>
+		</table>
+		</td>
+	  </tr>
+	</table>
+<META content="js;JavaScript;农历; 阳历; 月历; 节日; 节气; 生肖; 星座; 近代史" name=keywords>
+<META content=All name=robots>
+<META content="gregorian solar calendar and chinese lunar calendar" 
+name=description>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>BODY {
+	FONT-FAMILY: "宋体"; FONT-SIZE: 9pt
+}
+ {
+	TEXT-DECORATION: none
+}
+.todyaColor {
+	BACKGROUND-COLOR: rgb(255,160,66); COLOR: rgb(255,255,255)
+}
+</STYLE>
+
+<SCRIPT language=JScript.Encode src="show.js"></SCRIPT>
+
+<SCRIPT language=JScript.Encode src="cal2.js"></SCRIPT>
+
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY aLink=#ffffff link=#ffffff onload=initial() vLink=#ffffff>
+<DIV id=tip2 
+style="COLOR: #910091; HEIGHT: 26px; LEFT: 190px; POSITION: absolute; VISIBILITY: hidden"></DIV>
+<CENTER>
+<SCRIPT language=JavaScript><!--
+   if(navigator.appName == "Netscape" || parseInt(navigator.appVersion) < 4)
+   document.write("<P>&nbsp;</P><P>&nbsp;</P><h1><font color=RED><center>你的浏览器无法正常浏览本页。</h1>请用 IE4.0以上版本浏览!!")
+//--></SCRIPT>
+
+<DIV id=detail style="POSITION: absolute"></DIV>
+<FORM name=CLD><CENTER>
+    </center><TABLE><CENTER>
+  <TBODY>
+  <TR>
+    <TD align=middle>
+      <TABLE bgColor=#ebebeb border=1 borderColorDark=#ffffff 
+      borderColorLight=#000000 cellSpacing=0>
+        <TBODY>
+            <TR bgcolor="#336699"> 
+              <TD align=left colSpan=7><FONT color=#ffffff 
+            style="FONT-SIZE: 9pt">&nbsp;&nbsp;&nbsp;&nbsp;查看 
+                <SELECT name=SY 
+            onchange=changeCld() style="FONT-SIZE: 9pt"> 
+              <SCRIPT language=JScript.Encode src="year.js"></SCRIPT>
+            </SELECT>年<SELECT name=SM onchange=changeCld() 
+            style="FONT-SIZE: 9pt"> 
+              <SCRIPT language=JScript.Encode src="moon.js"></SCRIPT>
+            </SELECT>月</FONT> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT 
+            id=YMBG 
+          style="COLOR: #ffffff; FONT: 20px 'Arial Black'"><BR>
+                </FONT></TD>
+            </TR>
+        <TR align=middle bgColor=#bebebe style="FONT-SIZE: 9pt">
+              <TD width=80><FONT color=red>日</FONT></TD>
+              <TD width=80><FONT color=#408080>一</FONT></TD>
+              <TD width=80><FONT color=#408080>二</FONT></TD>
+              <TD width=80><FONT color=#408080>三</FONT></TD>
+              <TD width=80><FONT color=#408080>四</FONT></TD>
+              <TD width=80><FONT color=#408080>五</FONT></TD>
+              <TD width=80><FONT color=red>六</FONT></TD>
+            </TR>
+        <SCRIPT language=JScript.Encode src="style.js"></SCRIPT>
+
+            <TR bgcolor="#336699"> 
+              <TD align=right colSpan=8><FONT color=#fffff face=宋体 
+            id=GZ></FONT></TD>
+            </TR></TBODY></TABLE></TD></FORM></center></TBODY></TABLE></CENTER></BODY></HTML>

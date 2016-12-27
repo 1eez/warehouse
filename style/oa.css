@@ -1,0 +1,60 @@
+.style1 {font-size: 36px}
+.mybody {
+	background-color: #CCCCCC;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+INPUT.inputTxt {	background-color: #FFFFFF; border-color: #CCCCCC; border-style: solid; border-width: 0px 0px 1px }
+INPUT.inputTxt2{	background-color: #FFFFFF; border-color: #CCCCCC; border-style: solid; border-width: 0px 0px 0px }
+
+BODY {
+	FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 9pt;SCROLLBAR-FACE-COLOR: #C2D5FC; SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; SCROLLBAR-SHADOW-COLOR: 1px solid #FFFFFF; SCROLLBAR-3DLIGHT-COLOR: 1px solid #FFFFFF; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-TRACK-COLOR: #EFEFEF; SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF
+}
+
+TD {
+	FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 9pt
+}
+table {
+	FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 9pt
+}
+.heading {
+	FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 14px
+}
+.show {
+	FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 14px; LINE-HEIGHT: 20px
+}
+.form {
+	FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 9pt; HEIGHT: 12pt
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+INPUT.buttonface {
+		border:1px solid #054B92; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #D2E4FC; COLOR: #003366; LINE-HEIGHT: normal; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+INPUT.smallInput {
+	BORDER-RIGHT: #636563 1px solid; BORDER-TOP: #636563 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 9pt; BORDER-LEFT: #636563 1px solid; LINE-HEIGHT: normal; BORDER-BOTTOM: #636563 1px solid; FONT-STYLE: normal; HEIGHT: 18px; FONT-VARIANT: normal
+}
+TEXTAREA{filter:chroma(color=#ffffff);}
+pa{padding:5pt}
+
+.TitleInput {
+  	BORDER-RIGHT: #506646 0px solid;BORDER-TOP: #506646 0px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #ffffff 0px solid;
+    BORDER-BOTTOM: #000000 1px solid
+}
+.bai {
+	font-family: "??", Arial, serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
